@@ -1,0 +1,172 @@
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    
+}
+.header, .content, .quote, .sign-up, footer{
+    display: flex;
+    flex: 1;
+    
+}
+
+.header{
+    background-color: #1F2937;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    color: #E5E7EB;
+    font-weight: bold;
+    flex: 0.4;
+}
+
+.content{
+    background-color: #1F2937;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    flex: 2.5;
+    padding-bottom: 15px;
+}
+.info{
+    background-color: #F9FAF8;
+    height: 900px;
+    
+    
+
+}
+.sign-up{
+    background-color: #E5E7EB;
+    min-height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.sign-up-text{
+    font-style: italic;
+    font-size: 36px;
+    color: rgb(95, 90, 90);
+    height: 200px;
+    width: 800px;
+}
+.thor{
+    margin-left: 610px;
+    font-size: 20px;
+    font-weight: bold;
+
+
+}
+.call-to-action{
+    background-color:#F9FAF8;
+    min-height: 300px;
+}
+footer{
+    background-color: #1F2937;
+
+
+}
+
+.right-links{
+    display: flex;
+    margin: 15px;
+    gap: 10px;
+
+    
+}
+.left-links{
+    display: flex;
+    margin: 15px;
+    margin-left: 75px;
+
+}
+.intro-text{
+    width:500px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    
+    
+   
+    
+}
+.img{
+    width: 500px;
+
+}
+.white-bold{
+    font-weight: bold;
+    color: #E5E7EB;
+    font-size: 48px;
+    width: 400px;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 30px;
+    margin: 0;    
+}
+.subtext{
+    color: #E5E7EB;
+    width: 440px;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+
+    
+}
+.img img{
+    width: 500px;
+    border-radius: 20px;
+    height: 200px;
+    margin-top: 20px;
+}
+.sign-up-btn{
+    color: #E5E7EB;
+    background-color: #3882f6;
+    width: 80px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 10px;
+
+    
+}
+.blocks{
+    padding: 50px;
+    
+    
+    
+    
+}
+
+.blocks img{
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    margin-left: 30px;
+    border: #3882f6 solid 5px;
+    
+    
+}
+.blocks-container{
+    display: flex;
+    justify-content: center;
+}
+.info-text{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 20px;
+
+
+    
+
+
+
+}
+.text{
+    font-family: 'Roboto', sans-serif;
+
+}
